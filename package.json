@@ -1,0 +1,30 @@
+{
+  "name": "wallaby-ts-jest-mock",
+  "version": "1.0.0",
+  "description": "Testing Wallaby.js with TypeScript and jest.mock",
+  "main": "index.js",
+  "author": "Hendrik Liebau",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc --project ."
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.2",
+    "jest": "^20.0.4",
+    "ts-config": "^10.0.1",
+    "ts-jest": "^20.0.7",
+    "typescript": "^2.4.1"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
