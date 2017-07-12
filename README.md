@@ -21,4 +21,4 @@ The one test should be succesful.
 
 Start wallaby in the IDE of your choice.
 
-~~The test will probably fail.~~ Fixed with #1
+~~The test will probably fail.~~ Fixed with [#1](https://github.com/KingHenne/wallaby-ts-jest-mock/pull/1).
