@@ -21,4 +21,4 @@ The one test should be succesful.
 
 Start wallaby in the IDE of your choice.
 
-The test will probably fail.
+~~The test will probably fail.~~ Fixed with #1
