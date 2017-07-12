@@ -1,7 +1,6 @@
 {
-  "extends": "./node_modules/ts-config/tsconfig.json",
   "include": ["src/**/*"],
   "compilerOptions": {
-     "outDir": "dist"
+    "outDir": "dist"
   }
 }
