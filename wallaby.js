@@ -9,6 +9,12 @@ module.exports = function() {
       runner: "node"
     },
 
+    preprocessors: {
+      '**/*.js': file => require('babel-core').transform(
+        file.content,
+        {sourceMap: true, presets: ['babel-preset-jest']})
+    },
+
     testFramework: "jest"
   };
 };
